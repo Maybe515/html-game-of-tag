@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>クマの氷鬼</title>
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<link rel="stylesheet"href="css/game.css" type="text/css" />
+	<script src="js/enchant.js"></script>
+	<script src="js/game.js"></script>
+</head>
+<body>
+<div id="wrap">
+<h1>クマの氷鬼</h1>
+<p>　<span class="boy">"クマBoy"</span>と<span class="oyaji">"おっさん"</span>と<span class="younger">"ヤンクマ"</span>と<span class="girl">"クマGirl"</span>の４匹で氷鬼をします。<br />
+　あなたが操作するのは鬼である<span class="boy">"クマBoy"</span>です。</p>
+<h2>ルール説明</h2>
+<p>　<span class="boy">クマBoy</span>が勝つためには１５秒以内に<span class="oyaji">"おっさん"</span>と<span class="younger">"ヤンクマ"</span>と<span class="girl">クマGirl</span>に触れなければなりません。<br />
+　１５秒以内に全員に触れることのできなかった場合は<span class="boy">クマBoy</span>の負けです。</p>
+<table>
+<tr><td><span class="boy">クマBoy</span></td><td><span class="oyaji">おっさん</span></td><td><span class="younger">ヤンクマ</span></td><td class="no"><span class="girl">クマGirl</span></td></tr>
+<tr><td><img src = "img/kuma_boy.png" alt = "クマBoy"></td><td><img src = "img/kuma_oyaji.png" alt = "おっさん"></td><td><img src = "img/kuma_younger.png" alt = "ヤンクマ"></td><td class="no"><img src = "img/kuma_girl.png" alt = "クマGirl"></td></tr>
+</table>
+<input type="button" value="スタート" onclick="kekka()" />
+	<div id="enchant-stage"></div>
+</div>
+</body>
+</html>

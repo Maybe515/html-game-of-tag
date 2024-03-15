@@ -1,0 +1,44 @@
+#wrap{
+	width:530px;
+	margin:auto;
+}
+
+table{
+	border:1px solid #000;
+}
+
+table tr td{
+	border-right:1px solid #000;
+	text-align:center;
+	padding:2px;
+}
+
+.no{
+	border:none;
+}
+
+#enchant-stage{
+	margin-top:20px;
+	width:528px;
+	border:1px solid #ccc;
+}
+
+.boy{
+	color:#66a;
+}
+
+.oyaji{
+	color:#6a6;
+}
+
+.girl{
+	color:#a66;
+}
+
+.younger{
+	color:#ea0;
+}
+
+h1,h2{
+	color:#a50;
+}
